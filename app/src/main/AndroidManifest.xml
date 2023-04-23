@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="edu.northestern.cs5520_teamproject_iamhere">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_iamhere"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_iamhere_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CS5520_TeamProject_IAmHere"
+        tools:targetApi="31"
+        android:usesCleartextTraffic="true" >
+        <meta-data
+            android:name="com.google.firebase.database.collection_developer_mode"
+            android:value="true" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDVUiCeOgaOZl9lTR716vW3FKtA5Q5UEAA" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize|navigation|keyboard|keyboardHidden"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AtYourService.AtYourServiceActivity"
+            android:windowSoftInputMode="adjustNothing"
+            android:configChanges="keyboard|orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        </activity>
+        <activity android:name=".StickItToEm.StickItToEmLoginActivity"/>
+        <activity android:name=".IamHere.IAmHereLoginActivity"/>
+        <activity android:name=".StickItToEm.ReceiveNotificationActivity"/>
+        <activity
+            android:name=".StickItToEm.MainPageActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".StickItToEm.DisplaySticker"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".StickItToEm.UserMessageRecordActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".About"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".IamHere.WomenSafetyMain"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".IamHere.AddContacts"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".IamHere.SendLocation"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".IamHere.EmergencyCall"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:exported="true">
+        </activity>
+    </application>
+
+</manifest>

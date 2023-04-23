@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StickItToEm.DisplaySticker">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/sticker1"
+            android:layout_width="136dp"
+            android:layout_height="154dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="onClickStickerButton"
+            android:padding="10dp"
+            android:src="@drawable/sticker_1"
+            android:tag="sticker1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.174"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.383"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/sticker2"
+            android:layout_width="161dp"
+            android:layout_height="116dp"
+            android:layout_below="@+id/sticker1"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="350dp"
+            android:onClick="onClickStickerButton"
+            android:padding="10dp"
+            android:src="@drawable/sticker_2"
+            android:tag="sticker2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/sticker3"
+            android:layout_width="130dp"
+            android:layout_height="113dp"
+            android:layout_below="@+id/sticker2"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="onClickStickerButton"
+            android:padding="10dp"
+            android:src="@drawable/sticker_3"
+            android:tag="sticker3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.944"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.381"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

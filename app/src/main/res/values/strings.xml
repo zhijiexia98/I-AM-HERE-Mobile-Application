@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CS5520_TeamProject_IAmHere</string>
+    <string name="image_content_description">image shows Qualitative Index of certain Pollutant</string>
+    <string name="pollutant_add_success">pollution data added successfully</string>
+    <string name="channel_name">channel_name</string>
+    <string name="channel_description">channel_description</string>
+    <string name="channel_id">channel_id</string>
+    <string name="API_KEY">AIzaSyDVUiCeOgaOZl9lTR716vW3FKtA5Q5UEAA</string>
+
+    <string name="send_str">Send</string>
+    <string name="username_str">Username: </string>
+    <string name="username_prompt">Enter Username: </string>
+    <string name="Login">Login</string>
+    <string name="ellipsisStr">.....</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <string name="get_new_location">Get New Location</string>
+    <string name="send_cur_location">Send Current Location</string>
+    <string name="default_info_title">Default Title</string>
+    <string name="default_info_snippet">Default Snippet</string>
+    <string name="pick_place">Pick Place</string>
+    <string name="log_out">Log Out</string>
+    <string name="delete_user">Delete User</string>
+</resources>

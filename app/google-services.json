@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "473535276697",
+    "firebase_url": "https://stickittoem-3cade-default-rtdb.firebaseio.com",
+    "project_id": "stickittoem-3cade",
+    "storage_bucket": "stickittoem-3cade.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473535276697:android:948fc55f9ad9386ae77a08",
+        "android_client_info": {
+          "package_name": "edu.northestern.cs5520_teamproject_iamhere"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473535276697-i25kgts47479e1hp84aake1ms0e0sngn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK5frhdB9AUzc04gll4r5moIFAxjSdp4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473535276697-i25kgts47479e1hp84aake1ms0e0sngn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
