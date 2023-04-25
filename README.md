@@ -5,8 +5,8 @@ https://github.khoury.northeastern.edu/jiaxuanli/CS5520MobileDevelopmentGroupPro
 
 
 Group members:
-Yu Wang, wang.yu20@northeastern.edu, coconut
-Jiaxuan Li, li.jiaxuan@northeastern.edu , jiaxuanli
+Yu Wang, wang.yu20@northeastern.edu, coconut;
+Jiaxuan Li, li.jiaxuan@northeastern.edu , jiaxuanli;
 Zhijie Xia, xia.zhij@northeastern.edu ,zhijiexia
 
 Contribution:
