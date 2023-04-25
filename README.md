@@ -30,7 +30,7 @@ Shake your phone or press Panic button, you could call the first contact
 Additional Functions:
 Call contact in the contact lists
 Swipe to delete contact in the contact lists
-Delete User from Firebase
+Delete and add users from Firebase
 
 
 Test Info:
