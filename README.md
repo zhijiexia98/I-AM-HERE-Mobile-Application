@@ -1,4 +1,4 @@
-CS55520 Mobile Development Group Project
+CS5520 Mobile Development Group Project
 
 Github link:
 https://github.khoury.northeastern.edu/jiaxuanli/CS5520MobileDevelopmentGroupProject.git
