@@ -6,8 +6,8 @@ https://github.khoury.northeastern.edu/jiaxuanli/CS5520MobileDevelopmentGroupPro
 
 Group members:
 Yu Wang, wang.yu20@northeastern.edu, coconut;
-Jiaxuan Li, li.jiaxuan@northeastern.edu , jiaxuanli;
-Zhijie Xia, xia.zhij@northeastern.edu ,zhijiexia
+Jiaxuan Li, li.jiaxuan@northeastern.edu, jiaxuanli;
+Zhijie Xia, xia.zhij@northeastern.edu, zhijiexia
 
 Contribution:
 Jiaxuan Li: Created the main page of the IAmHere app; Implemented the Add contact’s functionalities with recycler view. 
